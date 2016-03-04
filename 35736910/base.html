@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../../css/main.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Using Python3 and Selenium to gather table data..</h1>
+        </div>
+        <hr/>
+        <div class="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Another column</th>
+                        <th>Fetch this one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for numba in numbas %}
+                    <tr>
+                        <td>Some Other column</td>
+                        <td style="boder-width:1px">
+                            <b>Irrelevant_text_that_i_capture_but_i_really_don´t</b>
+                           <!--&nbsp; {{ numba }}-->
+                            <script language="javascript">
+                                sayMonto('{{ numba }}');
+                            </script>
+                           {{ numba }}
+                        </td>
+                        <!-- <td style="border-width:1px">&nbsp;&nbsp;{{ numba }}</td> -->
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>

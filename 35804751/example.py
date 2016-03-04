@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 driver = webdriver.Firefox()
-driver.get("http://localhost:8000/")
+driver.get("http://localhost:8000/35804751/html/")
 assert "Selenium Test" in driver.title
 print driver.page_source
 sleep(18)

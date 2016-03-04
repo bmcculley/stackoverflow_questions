@@ -10,11 +10,11 @@ It also requires Python Selenium ([Installation directions can be found here.](h
 
 If you haven't already, download the source found here.
 
-Navigate into the html directory and start a simple http server instance
+Navigate to the base directory of this repository and start a simple http server instance
 
 `python -m SimpleHTTPServer`
 
-Open http://localhost:8000 to make sure that it's working.
+Open http://localhost:8000/35804751/html/ to make sure that it's working.
 
 In a separate terminal window, navigate to the base directory of this question where `example.py` is located and run it `python example.py`
 
